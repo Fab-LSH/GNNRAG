@@ -284,8 +284,8 @@ if __name__ == "__main__":
     # add_train_outputs_to_test_questions(test_questions_path, train_questions_path, train_outputs_path, output_path)
     
     test_questions = "./data/LaMP_1_time/dev/recency/rank_merge.json"
-    similar_items = "./user_similar_items_top1/user_similar_items.json"
-    output = "./data/LaMP_1_time/dev/llm_input_retrieval_top1.json"
+    similar_items = "./similiar_items_kmeans/top_5_cluster_5/user_similar_items_kmeans.json"
+    output = "./data/LaMP_1_time/dev/top5_cluster5.json"
     # merge(test_questions, similar_items, output)
 
     merge2(similar_items, test_questions, output)
